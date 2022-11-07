@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    min-width: 400px;
+    padding: 10px 20px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}
+.search button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.mic{
+    padding: 15px;
+    border-radius: 50%;
+    background: rgb(217, 214, 214);
+    place-items: center;
+    margin-left: 15px;
+}
+.side-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-right: 50px;
+}
+.tags{
+    display: flex;
+    justify-content: last baseline;
+    place-items: center;
+    gap: 10px;
+    align-items: center;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+}
+.tag {
+    border: 1px solid rgb(22,22,22);
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+.dark{
+    background-color: rgb(49, 45, 45);
+    color: aliceblue;
+}
+.light{
+    background-color: rgb(238,238,238);
+    color: rgb(67,67,67);
+}
+.container{
+    display: flex;
+}
+.aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.side-icons img{
+    width: 30px;
+}
+.side-icons p{
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+.bars {
+    margin-top: 20px;
+}
+main{
+    min-height: 100vh;
+    background: rgb(240,238,238);
+    min-width: 100vw; 
+}
+.main-container{
+    width: 100%;
+}
+.card{
+    max-width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+}
+.card-container{
+    padding-right: 10px;
+    
+}
+.avatar-content {
+   padding-top: 10px;
+   display: flex;
+   gap: 5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.video img{
+    border-radius: 20px;
+    width: 250px;
+    gap: 5px;
+}
+.video img:hover{
+    height: 190px;
+    width: 260px;
+    transition: all;
+}
+.card-container p{
+    color: rgb(125, 123, 123);
+}
+.card h4{
+    font-size: 10px;
+}
+.card p{
+    font-size: 10px;
+}
+.dots {
+    margin-left: 1px;
+}
+.newrow{
+    display: flex;
+    flex-direction: row;
+}
